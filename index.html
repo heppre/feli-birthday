@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="clickberry-extension-here">
+<meta content="clickberry-extension-here">
+<script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script>
+<meta content="clickberry-extension-here">
+    <title>Document</title>
+    <link rel="stylesheet" href="birthday.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+  <section class="backgrnd-img">
+    <div class="container-b">
+      <div class="balloon">
+        <div><span>P</span>
+        </div>
+        <div><span>A</span>
+        </div>
+        <div><span>T</span>
+        </div>
+        <div><span>T</span>
+        </div>
+        <div><span>U</span>
+        </div>
+        <div><span>☺</span>
+        </div>
+      </div>
+      <h1>Happie Birthday Da</h1>
+      </div>
+  </section>
+    <section class="darkestPeach">
+        <div class="hidden">
+          <label>
+            <input type="checkbox" />
+            <div class=" flip-card">
+              <div class="front">
+                
+                <h1>I love U<h1>
+                <h2>I Can't Imagine My Life Without You</h2> 
+                <p>Click to Flip</p>
+              </div>
+              <div class="back">
+                <p><img src="./hand.jpg" alt="" height="280px" width="250px" style="padding-top: 10px;"></p>
+                <hr />
+                <p class="click">Click to Flip</p>
+              </div>
+            </div>
+          </label>  
+        </div>
+        <div class="hidden">
+        <h1>Happy Birthday Venna!</h1>
+        <p>Even though i haven't seen your face in centuries. I hope you like this :D</p>
+        </div>
+    </section>
+    <section class="darkPeach">
+<div class="hidden">
+    <h1>Yoshi!</h1>
+<p>You're a pretty cool person who plays on the nintendo!</p>
+<br>
+<h1>Mmm Chezburger</h1>
+<p>You like playing roblox! Best free game on Earth! We should play a game one day :o</p>
+</div>
+<img class="hiddenimg" src="https://media.discordapp.net/attachments/701125768675065917/1030316445445398538/2022-10-13_9.png?width=1246&height=701" class="awards">
+    </section>
+    <section class="peach">
+        <div class="hidden">
+        <h1>You're an amazing freind!</h1>
+        <p>
+           To tell the truth, i didn't think i would be able to make this on time, but i tried my best to give you a showage
+           of appreciation. Even though we don't talk a lot you're still my freind and i just wanted to show you that it's 
+           not just your family who cares about you. I also made this to help improve my coding skills since i made this 
+           website without any apps or extensions, it's just all code! I don't know a lot about you so i just put some 
+           random images and an aeshetic image at the bottom. I hope you have an amazing year and uhh I'll make something
+           even better for you next year! (p.s the section above is supposed to be all the hobbies that you master at, i
+           should've asked more questions to put more hobbies there) 
+        </p>
+        </div>
+        <img class="hidden" src="https://media.tenor.com/GdJRGf60YN4AAAAC/hugs-sending-virtual-hugs.gif">
+    </section>
+    <section class="gall">
+    <div class="gallery">
+      <input type="checkbox">
+      <img src="./1.jpg" alt="a forest after an apocalypse">
+      <img src="./4.jpg" alt="a waterfall and many rocks">
+      <img src="./towerpk.jpg" alt="a house on a mountain">
+      <img src="2.jpg" alt="sime pink flowers">
+      <img src="./3.jpg" alt="big rocks with some trees">
+      <img src="./parkpink.jpg" alt="a waterfall, a lot of tree and a great view from the sky">
+      <img src="./6.jpg" alt="a cool landscape">
+      <img src="./7.jpg" alt="inside a town between two big buildings">
+    </div>
+    </section>
+    <section class="lightPeach">
+   
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center text-light my-5"><strong>Hover the box</strong></h3>
+        </div>
+        <div class="col-12 mt-5 d-flex justify-content-center">
+          <div class="box">
+            <div class="box-body">
+              <img class="img" src="DCM_0393-copy.jpg" height="150px" width="190px">
+              <div class="box-lid">
+                
+                <div class="box-bowtie"></div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <img class="hidden show1" src="https://media.discordapp.net/attachments/701125768675065917/1030315397121052762/2022-10-13_7.png?width=1246&height=701"> -->
+    </section>
+    <section class="final"><h1 class="move">Always Be Happy With Me!</h1></section>
+<script>
+    const hiddenElements = document.querySelectorAll(".hidden");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry);
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+    else {
+      entry.target.classList.remove('show');
+    }
+  });
+})
+
+hiddenElements.forEach((el) => observer.observe(el));
+</script>
+<script>
+    window.open = function() {};
+    window.print = function() {};
+    // Support hover state for mobile.
+    if (false) {
+      window.ontouchstart = function() {};
+    }
+    </script>
+    <script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script>
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+          window.parent.postMessage('resize', "*");
+        }
+        </script>
+</body>
+    </html>
